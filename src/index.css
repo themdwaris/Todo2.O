@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+button:disabled {
+    /* your styling here */
+    opacity: 0.5; /* example: reduce opacity to indicate disabled state */
+    cursor: not-allowed; /* example: change cursor to indicate disabled state */
+  }
