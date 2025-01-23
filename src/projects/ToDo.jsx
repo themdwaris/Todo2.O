@@ -71,7 +71,7 @@ const ToDo = () => {
             key={curr.id}
             className="mb-4 p-2 bg-white/20 rounded-md flex items-center justify-between"
           >
-            <div className="flex items-center">
+            <div className="flex items-center overflow-x-auto">
               
               <span
                 onClick={() => {
